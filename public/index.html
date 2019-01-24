@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Sujoy K. Sikdar</title>
+<script src="jquery.js"></script> 
+<script> 
+	$(function(){
+	$("#publicationsContent").load("publications.html"); 
+	});
+</script>
+</head>
+<body>
+	<div id="container">
+    	<h1>Sujoy Kumar Sikdar</h1>
+	<hr color="black"><hr color="red"><hr color="red"><hr color="red"><hr color="white"><hr color="white"><hr color="white"><hr color="black">
+            <div id="left">
+		<img src="img.jpg">
+		<p align="left">
+                        <b>Contact:</b><br /><a name="contact"></a>
+                        Sujoy Kumar Sikdar<br />
+                        Amos Eaton AE 204<br />
+                        Rensselaer Polytechnic Institute<br />
+                        110, 8th Street, Troy, NY 12180<br />
+                        <img src="rpi_email.jpg" height="20px"><br />
+			<img src="g_email.jpg", height="21px"><br />
+                        [<a href="cv.pdf">CV</a>] [<a href="http://scholar.google.com/citations?user=OmZaKTEAAAAJ&hl=en">Google Scholar</a>] [<a href="https://www.linkedin.com/pub/sujoy-sikdar/20/465/651">Linkedin</a>] <br />
+                </p>
+            	<h3><a href="index.html">Home</a></h3>
+		<h3><a href="#research">Research Interests</a></h3>
+		<h3><a href="#publications">Publications</a></h3>
+		<h3><a href="cv.pdf">CV</a></h3>
+		<h3><a href="#activity">Research Activity</a></h3>
+                <h3><a href="papers/abstract.pdf">Thesis Abstract</a></h3>
+		<h3><a href="#courses">Coursework</a></h3>
+		<h3><a href="#employment">Employment</a></h3>
+            <!--end left--></div>
+        <div id="right">
+		<p align="justify">
+			PhD candidate,  <a href="http://www.cs.rpi.edu">Computer Science Department</a> at the <a href="http://www.rpi.edu">Rensselaer Polytechnic Institute</a>. <br />
+			I am most fortunate to be advised by  <a href="http://www.cs.rpi.edu/~sibel">Prof. Sibel Adal&#305;</a> and <a href="http://www.cs.rpi.edu/~xial">Prof. Lirong Xia</a>.<br /><br />
+			<p style="text-align:left; padding:0; margin:0;">&#9642;&nbsp;2012 - 2018 (Summer, expected), Doctor of Philosophy, Computer Science, Rensselaer Polytechnic Institute, Troy, NY.<br />
+			&nbsp;&nbsp;Thesis: Optimal Multi-Attribute Decision Making in Social Choice Problems.<br />
+			&nbsp;&nbsp;Advisers: <a href="http://www.cs.rpi.edu/~xial">Prof. Lirong Xia</a> and <a href="http://www.cs.rpi.edu/~sibel">Prof. Sibel Adal&#305;</a>.</p><br />
+			<p style="text-align:left; padding:0; margin:0;">&#9642;&nbsp;2012 - 2015, Master of Science, Computer Science, Rensselaer Polytechnic Institute, Troy, NY.<br />
+                        &nbsp;&nbsp;Thesis: Towards an Understanding of Information Credibility on Online Social Networks.<br />
+                        &nbsp;&nbsp;Advisers: <a href="http://www.cs.rpi.edu/~sibel">Prof. Sibel Adal&#305;</a>.</p><br />
+			<p style="text-align:left; padding:0; margin:0;">&#9642; 2005 - 2009, Bachelor of Engineering, Information Technology, Manipal Institute of Technology, Manipal, India.</p><br />
+		</p>
+	<hr>
+	<h2>Research Interests</h2><a name="research"></a>
+	<p align="justify">Computational Social Choice, Mechanism Design, Human Decision-Making, Trust and Credibility on Social Networks, Information Aggregation, Artificial Intelligence, Algorithm Design, Machine Learning.</p>
+		<p>I am interested in (optimal) decision making over multiple attributes or issues in social and individual choice which includes the following problems:
+		<ul>
+			<li><p>Multi-Resource Allocation: Fair and Efficient allocation of mutiple types of items in Allocation and Exchange Markets.</p>
+			<li><p>Combinatorial voting: Making a group decision over multiple issues.</p>
+			<li><p>Human Behavior on Social Networks: Modeling human choices and decision-making in real data.</p>
+		</ul>
+		<p>Please find a more detailed description of my research activities <a href="#activity">below</a>.</p><br />
+	<hr>
+        <h2>Publications</h2><a name="publications"></a>
+		<div id="publicationsContent"></div>
+	<br />
+	<hr>
+	<h2>Research Activity</h2><a name="activity"></a>
+	        <p>My MS and PhD theses concentrated on decision making problems in multi-attribute domains through theory as well as real-world applications. I approach these problems from two directions: </p>
+        	<ul>
+                	<li><p><b>(Direction 1) The social choice problem of Making Optimal Decisions under Preferences.</b></p>
+                	<ul>
+                        	<li><p><u>Multi-Resource Allocation:</u> Allocation and Exchange Markets involving items of mulitple types.<br /><br /> 
+                        &#9642;&nbsp;We provide the first positive results in mechanism design for multi-type exchange markets. In exchange markets, the resources are initially owned by the agents and the goal is to find an optimal and stable redistribution of resources, while ensuring participation. Participation is a particularly important property for a centralized mechanism when parallel markets are undesirable such as in paired organ donation, assigning students to courses of multiple types to satisfy graduation requirements, allocation of dorm rooms and other facilities in a university, and reassigning computational resources in a cloud computing platform. Our mechanism satisfies strict-core selection, non-bossiness and a restricted version of strategyproofness under some natural structural assumptions on agents' combinatorial preferences over bundles.<br /><br />
+                        &#9642;&nbsp;In the allocation problem, the goal is to allocate bundles of resources given agents' preferences. We characterize sequential mechanisms, study their social choice and computational properties and provide rank efficiency bounds when agents are strategic. Sequential mechanisms are desirable for their simplicity and the property that agents are not required to form their full combinatorial preferences a priori. An example is the problem of assigning a research paper and time slot to students in a seminar course given their preferences.</p>
+                        	<li><p><u>Combinatorial voting:</u> Making a group decision over multiple issues such as the decision on multiple referenda or deciding a menu for a dinner party. We provide the first framework to reason about optimal decisions when agents' preferences are represented by CP and PCP-nets with full generality. CP-nets are a popular language to represent agents' combinatorial preferences over multiple issues allowing agents to specify conditional preferential dependencies on the values for different types. Our framework leads to a natural optimization objective while previous works imposed various restrictions on agents' preference structures. A new class of voting rules under our framework allows the aggregation of profiles of CP-net preferences without any assumptions on the structure of preferences.</p>
+                	</ul>
+                	<li><p><b>(Direction 2) Learning Preferences from real world Data.</b></p>
+                	<ul>
+                        	<li><p><u>Human Behavior on Social Networks:</u> Modeling human choices and decision-making through voting and discussion behavior on social networks using data mining, NLP, machine learning, and learning-to-rank techniques. We provide new insights into what drives conversations on social content sharing and discussion platforms such as Reddit using models that learn to rank comments. We develop natural language features to model the factors affecting voting behavior. Our supervised machine learning methods rank the comments with high precision and are human interpretable. We show that our methods are effective across a diverse set of communities that deal with topics as diverse as question answering communities dealing with science and history to communities that discuss news and politics. A post hoc analysis reveals new insights into factors affecting users' voting behavior. </p>
+                        	<li><p><u>Human Choices in Question Answering:</u> In collaboration with social psychologists, we develop models inspired by psychology literature to understand why certain answers are more popular in a dataset obtained in a controlled environment.</p>
+                	</ul>
+        	</ul>
+	<hr>
+	<h2>Relevant Coursework</h2><a name="courses"></a>
+		<p align="justify">Computational Social Choice, Game Theory, Machine Learning, Analysis of Algorithms, Approximation Algorithms, Intro. to Computational Finance, Distributed Computing Over the Internet, Frontiers of Network Science, Mathematical Statistics, Linear Programming.
+		</p>
+	<hr>
+	<h2>Employment</h2><a name="employment"></a>
+		&#9642;&nbsp;2012 - present, Research Assistant, Rensselaer Polytechnic Institute, Troy, NY, USA. I worked on research projects with <a href="http://www.cs.rpi.edu/~sibel">Prof. Sibel Adal&#305;</a> and <a href="http://www.cs.rpi.edu/~xial">Prof. Lirong Xia</a>. My research projects are outlined <a href="#activity">above</a>.<br /><br />
+		&#9642;&nbsp;2009 - 2011, Software Developer 2,  Juniper Networks, Bangalore, India. I worked for the Remote Access Group on the SSL-VPN and WAN Acceleration product lines with extensive experience in Windows internals, and exposure to Linux client and server side code bases.<br /><br />
+		&#9642;&nbsp;2008 - 2009, Software Intern, Juniper Networks, Bangalore, India.
+        </p>
+	<hr>
+	<footer>
+		<p>Last updated 19 November 2018. Thanks for visting!</p>
+	</footer>    
+    <!--container--></div>  
+</body>
+</html>
+        
