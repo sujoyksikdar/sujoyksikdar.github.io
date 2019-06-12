@@ -1,2 +1,2 @@
-sujoysikdar.gitlab.io
+sujoyksikdar.github.io
 
